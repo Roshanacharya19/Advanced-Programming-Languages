@@ -1,0 +1,143 @@
+<pre>$ ls
+$ mkdir assignment_1
+$ cd assignment_1
+$ ls ../
+assignment_1
+$ cd ../
+$ ls ../
+Desktop  Documents  Downloads  Music  Pictures	Public	snap  Templates  Videos
+$ ls  
+assignment_1
+$ cd assignment_1
+$ g++ -o assignment_oop.cpp rides
+/usr/bin/ld: cannot find rides: No such file or directory
+collect2: error: ld returned 1 exit status
+$ g++ assignment_oop.cpp -o rides
+<b>cc1plus:</b> <font color="#C01C28"><b>fatal error: </b></font>assignment_oop.cpp: No such file or directory
+compilation terminated.
+$ ls -a
+.  ..  assignment_oop.cpp
+$ g++ assignment_oop.cpp -o rides
+$ ./rides
+Ride #1001 requested by Alice Smith
+Ride #1002 requested by Alice Smith
+Ride #1003 requested by Bob Johnson
+Ride #1004 requested by Bob Johnson
+
+=== ALL RIDES IN SYSTEM ===
+=== STANDARD RIDE ===
+Ride ID: 1001
+Pickup: 123 Main St
+Dropoff: 456 Oak Ave
+Distance: 5.2 miles
+Fare: $13.00
+------------------------
+=== PREMIUM RIDE ===
+Ride ID: 1002
+Pickup: 789 Pine Rd
+Dropoff: 321 Elm Blvd
+Distance: 3.70 miles
+Fare: $18.88
+Refreshments: Included
+------------------------
+=== STANDARD RIDE ===
+Ride ID: 1003
+Pickup: 555 Beach Dr
+Dropoff: 777 Lake St
+Distance: 8.10 miles
+Fare: $20.25
+------------------------
+=== PREMIUM RIDE ===
+Ride ID: 1004
+Pickup: 999 Hill Rd
+Dropoff: 888 Valley Ave
+Distance: 4.50 miles
+Fare: $16.88
+Refreshments: Not Included
+------------------------
+
+=== RIDE HISTORY FOR Alice Smith ===
+=== STANDARD RIDE ===
+Ride ID: 1001
+Pickup: 123 Main St
+Dropoff: 456 Oak Ave
+Distance: 5.20 miles
+Fare: $13.00
+------------------------
+=== PREMIUM RIDE ===
+Ride ID: 1002
+Pickup: 789 Pine Rd
+Dropoff: 321 Elm Blvd
+Distance: 3.70 miles
+Fare: $18.88
+Refreshments: Included
+------------------------
+Total Spent: $31.88
+
+=== RIDE HISTORY FOR Bob Johnson ===
+=== STANDARD RIDE ===
+Ride ID: 1003
+Pickup: 555 Beach Dr
+Dropoff: 777 Lake St
+Distance: 8.10 miles
+Fare: $20.25
+------------------------
+=== PREMIUM RIDE ===
+Ride ID: 1004
+Pickup: 999 Hill Rd
+Dropoff: 888 Valley Ave
+Distance: 4.50 miles
+Fare: $16.88
+Refreshments: Not Included
+------------------------
+Total Spent: $37.12
+
+=== DRIVER INFORMATION ===
+Driver ID: 201
+Name: Dave Wilson
+Rating: 4.80 stars
+Total Rides: 2
+Total Earnings: $33.25
+
+=== RIDES BY DRIVER Dave Wilson ===
+=== STANDARD RIDE ===
+Ride ID: 1001
+Pickup: 123 Main St
+Dropoff: 456 Oak Ave
+Distance: 5.20 miles
+Fare: $13.00
+------------------------
+=== STANDARD RIDE ===
+Ride ID: 1003
+Pickup: 555 Beach Dr
+Dropoff: 777 Lake St
+Distance: 8.10 miles
+Fare: $20.25
+------------------------
+
+=== DRIVER INFORMATION ===
+Driver ID: 202
+Name: Emily Brown
+Rating: 4.90 stars
+Total Rides: 2
+Total Earnings: $35.75
+
+=== RIDES BY DRIVER Emily Brown ===
+=== PREMIUM RIDE ===
+Ride ID: 1002
+Pickup: 789 Pine Rd
+Dropoff: 321 Elm Blvd
+Distance: 3.70 miles
+Fare: $18.88
+Refreshments: Included
+------------------------
+=== PREMIUM RIDE ===
+Ride ID: 1004
+Pickup: 999 Hill Rd
+Dropoff: 888 Valley Ave
+Distance: 4.50 miles
+Fare: $16.88
+Refreshments: Not Included
+------------------------
+$ 
+</pre>
