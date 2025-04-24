@@ -1,0 +1,19 @@
+% Query 1: Who are Roshan's children?
+?- parent(roshan, Child).
+% Expected output: Child = hari; Child = radha.
+
+% Query 2: Who are Shyam's parents?
+?- parent(Parent, shyam).
+% Expected output: Parent = hari; Parent = geeta.
+
+% Query 3: Is Parvati a cousin of Krishna?
+?- cousin(parvati, krishna).
+% Expected output: true.
+
+% Query 4: Who are all of Sita's grandchildren?
+?- grandparent(sita, Grandchild).
+% Expected output: Grandchild = shyam; Grandchild = parvati.
+
+% Query 5: Are Laxmi and Gopal siblings?
+?- sibling(laxmi, gopal).
+% Expected output: true.
